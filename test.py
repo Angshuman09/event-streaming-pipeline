@@ -3,6 +3,7 @@ from shared.avro_utils import serialize_avro, deserialize_avro
 import time
 
 schema = load_schema("schemas/user.avsc")
+print("Loaded Avro schema:", schema)
 
 user = {
     "user_id": "u123",
