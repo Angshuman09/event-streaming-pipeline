@@ -1,0 +1,28 @@
+{
+  "type": "record",
+  "name": "User",
+  "namespace": "even-streaming-pipeline",
+  "fields": [
+    {
+      "name": "user_id",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "age",
+      "type": "int"
+    },
+    {
+      "name": "email",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "created_at",
+      "type": "long"
+    }
+  ]
+}
