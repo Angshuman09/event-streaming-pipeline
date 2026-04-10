@@ -39,8 +39,6 @@ Overall, this architecture demonstrates how data flows from a producer to a cons
 
 ---
 
-## Demo
-
 ### Producer Output
 
 ![Producer](./public/producer.png)
