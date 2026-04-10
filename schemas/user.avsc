@@ -1,7 +1,7 @@
 {
   "type": "record",
   "name": "User",
-  "namespace": "streamforge",
+  "namespace": "event-streaming-pipeline",
   "fields": [
     {
       "name": "user_id",
