@@ -52,7 +52,7 @@ Overall, this architecture demonstrates how data flows from a producer to a cons
 ## Project Structure
 
 ```
-streamforge/
+event-streaming-pipeline/
 │
 ├── docker-compose.yml
 ├── schemas/
