@@ -39,6 +39,18 @@ Overall, this architecture demonstrates how data flows from a producer to a cons
 
 ---
 
+## Demo
+
+### Producer Output
+
+![Producer](./public/producer.png)
+
+### Consumer Output
+
+![Consumer](./public/consumer.png)
+
+---
+
 ## Project Structure
 
 ```
@@ -68,28 +80,6 @@ streamforge/
 ├── requirements.txt
 └── README.md
 ```
-
----
-
-## How It Works
-
-1. Writer Service generates events (Python dict)
-2. Events are serialized into Avro (binary format)
-3. Data is sent to Kafka topic
-4. Reader Service consumes events
-5. Events are deserialized back into Python dict
-
----
-
-## Demo
-
-### Producer Output
-
-![Producer](./public/producer.png)
-
-### Consumer Output
-
-![Consumer](./public/consumer.png)
 
 ---
 
